@@ -75,7 +75,7 @@
           </cc:Agent>
         </dc:publisher>
         <dc:language>en-US</dc:language>
-        <dc:date>2017-02-11</dc:date>
+        <dc:date>2017-02-19</dc:date>
         <dc:creator>
           <cc:Agent>
             <dc:title>Ton van Lankveld</dc:title>
@@ -772,13 +772,13 @@ CCMS Radio Beacon Monitor Station</dc:description>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"
-       x="20.277639"
+       x="20.049263"
        y="-310.03629"
        id="text3432"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3434"
-         x="20.277639"
+         x="20.049263"
          y="-310.03629"
          style="font-size:32px">SNR &amp; Path Plots Archive</tspan></text>
     <path
@@ -1300,198 +1300,28 @@ CCMS Radio Beacon Monitor Station</dc:description>
        y="-220.00002" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4510-7-8-3"
-       width="80"
-       height="40"
-       x="1020"
-       y="-270" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1060.0347"
-       y="-252.61372"
-       id="text4520-7-7-5"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4522-5-1-6"
-         x="1060.0347"
-         y="-252.61372">Read Date</tspan><tspan
-         sodipodi:role="line"
-         x="1060.0347"
-         y="-240.11372"
-         id="tspan3190-3-2">Input Field</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,-230.00001 0,10"
-       id="path4518-5-6-9"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4498-15-1"
-       width="80"
-       height="40.000004"
-       x="1020"
-       y="-220.00002"
-       ry="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,-180.00002 0,10.00001"
-       id="path4504-7-2"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1060.1053"
-       y="-202.52034"
-       id="text4506-0-7"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4508-5-0"
-         x="1060.1053"
-         y="-202.52034">Filter and</tspan><tspan
-         sodipodi:role="line"
-         x="1060.1053"
-         y="-190.02034"
-         id="tspan3597-9">Validate</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1100,-140.00001 42.5,0"
-       id="path4534-6-3"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#f4d7ee;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1020,-140.00001 40,-30 40,30 -40,30 z"
-       id="path4528-6-6"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,-110.00001 0,14.999997"
-       id="path4532-5-0"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1060.3081"
-       y="-136.58154"
-       id="text4538-9-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4540-4-2"
-         x="1060.3081"
-         y="-136.58154">Error ?</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1102.5022"
-       y="-142.38141"
-       id="text4584-3-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4586-5-1"
-         x="1102.5022"
-         y="-142.38141">Y</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1062.4045"
-       y="-99.983162"
-       id="text4588-5-8"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4590-2-7"
-         x="1062.4045"
-         y="-99.983162">N</tspan></text>
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-2"
-       width="10"
-       height="39.999996"
-       x="1020"
-       y="-270" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-6-2"
-       width="10"
-       height="39.999996"
-       x="1090"
-       y="-270" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-7-8"
-       width="10"
-       height="39.999996"
-       x="1090"
-       y="-220.00002" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-5-9"
-       width="10"
-       height="39.999996"
-       x="1020"
-       y="-220.00002" />
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4498-9-0-7"
-       width="80"
-       height="37.499996"
-       x="1020"
-       y="-45.000019"
-       ry="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,-7.5000284 0,25.0000154"
-       id="path4504-9-0-3"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1059.9817"
-       y="-23.070511"
-       id="text4506-2-0-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="1059.9817"
-         y="-23.070511"
-         id="tspan3134-5-1">dtReq = Date</tspan></text>
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-0-7-2-9"
        width="80"
        height="37.499996"
        x="1020"
-       y="17.499989"
+       y="-270.00003"
        ry="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,54.999996 0,10.000001"
+       d="m 1060,-232.5 0,10"
        id="path4504-9-0-3-9-4"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1059.9817"
-       y="39.429482"
+       y="-248.07051"
        id="text4506-2-0-6-3-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1059.9817"
-         y="39.429482"
+         y="-248.07051"
          id="tspan3134-5-1-1-8">dtReq - 1</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1142.5,-140.00002 0,144.999994"
-       id="path3779"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#000000;stroke:none;display:inline"
-       d="m 1060,4.9999876 7.5,-2.5 0,5.0000001 z"
-       id="path3376-8-45"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1067.5,4.9999876 75,0"
-       id="path4500-6-5-7-6-2-0"
-       inkscape:connector-curvature="0" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-3"
@@ -1526,168 +1356,168 @@ CCMS Radio Beacon Monitor Station</dc:description>
          id="tspan3625">on current date</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1100,94.999973 15,0"
+       d="m 1100,-192.50002 15,0"
        id="path4534-6-3-9"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#f4d7ee;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1020,94.999973 40,-29.999985 40,29.999985 -40,29.999997 z"
+       d="m 1020,-192.50002 40,-29.99999 40,29.99999 -40,29.99999 z"
        id="path4528-6-6-3"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,124.99997 0,32.5"
+       d="m 1060,-162.50003 0,32.5"
        id="path4532-5-0-3"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1059.9583"
-       y="90.021942"
+       y="-197.47804"
        id="text4538-9-6-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4540-4-2-7"
          x="1059.9583"
-         y="90.021942">dtReq</tspan><tspan
+         y="-197.47804">dtReq</tspan><tspan
          sodipodi:role="line"
          x="1059.9583"
-         y="102.52194"
+         y="-184.97804"
          id="tspan3291">&lt;= dtMin</tspan><tspan
          sodipodi:role="line"
          x="1059.9583"
-         y="115.02194"
+         y="-172.47804"
          id="tspan3293">?</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1102.5022"
-       y="92.618591"
+       y="-194.88139"
        id="text4584-3-6-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4586-5-1-6"
          x="1102.5022"
-         y="92.618591">Y</tspan></text>
+         y="-194.88139">Y</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1062.4045"
-       y="135.01685"
+       y="-152.48314"
        id="text4588-5-8-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4590-2-7-4"
          x="1062.4045"
-         y="135.01685">N</tspan></text>
+         y="-152.48314">N</tspan></text>
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-0-4-2"
        width="80"
        height="39.999924"
        x="1115"
-       y="74.999969"
+       y="-212.50002"
        ry="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1154.7684"
-       y="86.02597"
+       y="-201.47401"
        id="text4506-2-0-1-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1154.7684"
-         y="86.02597"
+         y="-201.47401"
          id="tspan3337">Disable</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1195,94.999963 10,0"
+       d="m 1195,-192.50003 10,0"
        id="path4504-9-0-6-2"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1205,94.999963 0,50.000007"
+       d="m 1205,-192.50003 0,50"
        id="path4504-9-0-4-8"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#000000;stroke:none;display:inline"
-       d="m 1060,144.99997 7.5,-2.5 0,5 z"
+       d="m 1060,-142.50003 7.5,-2.5 0,5 z"
        id="path3376-8-43"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1067.5,144.99997 137.5,0"
+       d="m 1067.5,-142.50003 137.5,0"
        id="path4500-6-5-7-6-2-3"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1100,187.49997 15,0"
+       d="m 1100,-100.00003 15,0"
        id="path4534-6-3-9-9"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#f4d7ee;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1020,187.49997 40,-30 40,30 -40,30 z"
+       d="m 1020,-100.00003 40,-30 40,30 -40,30.000005 z"
        id="path4528-6-6-3-6"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,217.49997 0,32.5"
+       d="m 1060,-70.000025 0,32.5"
        id="path4532-5-0-3-4"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1059.9583"
-       y="182.52194"
+       y="-104.97806"
        id="text4538-9-6-1-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4540-4-2-7-6"
          x="1059.9583"
-         y="182.52194">dtReq</tspan><tspan
+         y="-104.97806">dtReq</tspan><tspan
          sodipodi:role="line"
          x="1059.9583"
-         y="195.02194"
+         y="-92.478058"
          id="tspan3291-1">&lt; dtMax</tspan><tspan
          sodipodi:role="line"
          x="1059.9583"
-         y="207.52194"
+         y="-79.978058"
          id="tspan3293-3">?</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1102.5022"
-       y="185.11859"
+       y="-102.3814"
        id="text4584-3-6-9-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4586-5-1-6-5"
          x="1102.5022"
-         y="185.11859">Y</tspan></text>
+         y="-102.3814">Y</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1062.4045"
-       y="227.51685"
+       y="-59.983154"
        id="text4588-5-8-3-0"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4590-2-7-4-8"
          x="1062.4045"
-         y="227.51685">N</tspan></text>
+         y="-59.983154">N</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1205,187.49996 0,50.00001"
+       d="m 1205,-100.00004 0,50.000015"
        id="path4504-9-0-4-8-0"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#000000;stroke:none;display:inline"
-       d="m 1060,237.49997 7.5,-2.5 0,5 z"
+       d="m 1060,-50.000025 7.5,-2.5 0,5 z"
        id="path3376-8-43-9"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1067.5,237.49997 137.5,0"
+       d="m 1067.5,-50.000025 137.5,0"
        id="path4500-6-5-7-6-2-3-9"
        inkscape:connector-curvature="0" />
     <rect
@@ -1696,36 +1526,36 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="39.999996"
        x="1115"
-       y="74.999969" />
+       y="-212.50002" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-3-7-6-4"
        width="10"
        height="39.999996"
        x="1185"
-       y="74.999969" />
+       y="-212.50002" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-0-4-2-8"
        width="80"
        height="39.999924"
        x="1115"
-       y="167.49997"
+       y="-120.00002"
        ry="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1154.7684"
-       y="179.61829"
+       y="-107.88171"
        id="text4506-2-0-1-1-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1154.7684"
-         y="179.61829"
+         y="-107.88171"
          id="tspan3337-2">Enable</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1195,187.49997 10,0"
+       d="m 1195,-100.00003 10,0"
        id="path4504-9-0-6-2-0"
        inkscape:connector-curvature="0" />
     <rect
@@ -1734,41 +1564,41 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="39.999996"
        x="1115"
-       y="167.49997" />
+       y="-120.00002" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-3-7-6-4-8"
        width="10"
        height="39.999996"
        x="1185"
-       y="167.49997" />
+       y="-120.00002" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-15-1-3"
        width="80"
        height="40.000004"
        x="1020"
-       y="249.99997"
+       y="-37.500027"
        ry="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="M 1060,289.99999 1060,300"
+       d="m 1060,2.499995 0,10.00001"
        id="path4504-7-2-6"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1060.1053"
-       y="267.47964"
+       y="-20.02035"
        id="text4506-0-7-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1060.1053"
-         y="267.47964"
+         y="-20.02035"
          id="tspan3597-9-0">Date to</tspan><tspan
          sodipodi:role="line"
          x="1060.1053"
-         y="279.97964"
+         y="-7.5203495"
          id="tspan3526">yyyy-mm-dd</tspan></text>
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
@@ -1776,14 +1606,14 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="39.999996"
        x="1090"
-       y="249.99997" />
+       y="-37.500027" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-3-5-9-8"
        width="10"
        height="39.999996"
        x="1020"
-       y="249.99997" />
+       y="-37.500027" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-4"
@@ -1940,26 +1770,26 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="80"
        height="60"
        x="1020"
-       y="299.99997" />
+       y="12.499975" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,360.00002 0,10"
+       d="m 1060,72.500025 0,9.999996"
        id="path4518-5-8"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1059.927"
-       y="327.2908"
+       y="39.790802"
        id="text4520-7-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4522-5-3"
          x="1059.927"
-         y="327.2908">Write in Date</tspan><tspan
+         y="39.790802">Write in Date</tspan><tspan
          sodipodi:role="line"
          x="1059.927"
-         y="339.7908"
+         y="52.290802"
          id="tspan3190-8">Input Field</tspan></text>
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
@@ -1967,33 +1797,33 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="60"
        x="1020"
-       y="299.99997" />
+       y="12.499975" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-8"
        width="10"
        height="60"
        x="1090"
-       y="299.99997" />
+       y="12.499975" />
     <path
        style="fill:#f4e3d7;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1007.5,429.99997 27.5,-60 77.5,0 -27.5,60 z"
+       d="m 1007.5,142.49997 27.5,-59.999995 77.5,0 -27.5,59.999995 z"
        id="path4542-5-18"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1059.9856"
-       y="397.20529"
+       y="109.70529"
        id="text4548-3-6"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4550-5-2"
          x="1059.9856"
-         y="397.20529">Wait for</tspan><tspan
+         y="109.70529">Wait for</tspan><tspan
          sodipodi:role="line"
          x="1059.9856"
-         y="409.70529"
+         y="122.20529"
          id="tspan3326-5">Event</tspan></text>
     <path
        style="fill:#f4e3d7;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
@@ -2018,362 +1848,192 @@ CCMS Radio Beacon Monitor Station</dc:description>
          y="-320.2587">Event</tspan></text>
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4510-7-8-3-6"
-       width="80"
-       height="40"
-       x="1250"
-       y="-270.00003" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1290.0347"
-       y="-252.61374"
-       id="text4520-7-7-5-1"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4522-5-1-6-6"
-         x="1290.0347"
-         y="-252.61374">Read Date</tspan><tspan
-         sodipodi:role="line"
-         x="1290.0347"
-         y="-240.11374"
-         id="tspan3190-3-2-7">Input Field</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1290,-230.00001 0,10"
-       id="path4518-5-6-9-1"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4498-15-1-2"
-       width="80"
-       height="40.000004"
-       x="1250"
-       y="-220.00002"
-       ry="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="M 1290,-180.00002 1290,-170"
-       id="path4504-7-2-0"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1290.1053"
-       y="-202.52032"
-       id="text4506-0-7-4"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4508-5-0-9"
-         x="1290.1053"
-         y="-202.52032">Filter and</tspan><tspan
-         sodipodi:role="line"
-         x="1290.1053"
-         y="-190.02032"
-         id="tspan3597-9-1">Validate</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1329.9999,-140.00001 42.5001,0"
-       id="path4534-6-3-0"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#f4d7ee;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="M 1250,-140.00001 1290,-170 l 40,29.99999 -40,30 z"
-       id="path4528-6-6-2"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1290,-110.00001 0,15.000001"
-       id="path4532-5-0-0"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1290.3082"
-       y="-136.58153"
-       id="text4538-9-6-0"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4540-4-2-8"
-         x="1290.3082"
-         y="-136.58153">Error ?</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1332.5022"
-       y="-142.38139"
-       id="text4584-3-6-3"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4586-5-1-8"
-         x="1332.5022"
-         y="-142.38139">Y</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1292.4047"
-       y="-99.983154"
-       id="text4588-5-8-7"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4590-2-7-49"
-         x="1292.4047"
-         y="-99.983154">N</tspan></text>
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-2-8"
-       width="10"
-       height="39.999996"
-       x="1250"
-       y="-270.00003" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-6-2-0"
-       width="10"
-       height="39.999996"
-       x="1320"
-       y="-270.00003" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-7-8-3"
-       width="10"
-       height="39.999996"
-       x="1320"
-       y="-220.00002" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-5-9-3"
-       width="10"
-       height="39.999996"
-       x="1250"
-       y="-220.00002" />
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4498-9-0-7-7"
-       width="80"
-       height="37.499996"
-       x="1250"
-       y="-45.000011"
-       ry="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1290,-7.5000174 0,25.0000104"
-       id="path4504-9-0-3-1"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1289.9817"
-       y="-23.070496"
-       id="text4506-2-0-6-5"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="1289.9817"
-         y="-23.070496"
-         id="tspan3134-5-1-6">dtReq = Date</tspan></text>
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-0-7-2-9-4"
        width="80"
        height="37.499996"
        x="1250"
-       y="17.500004"
+       y="-270"
        ry="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1290,55.000002 0,10.000001"
+       d="m 1290,-232.49999 0,10"
        id="path4504-9-0-3-9-4-3"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1289.9817"
-       y="39.429489"
+       y="-248.0705"
        id="text4506-2-0-6-3-7-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1289.9817"
-         y="39.429489"
+         y="-248.0705"
          id="tspan3134-5-1-1-8-2">dtReq + 1</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 1372.5,-140.00002 0,145.0000031"
-       id="path3779-6"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#000000;stroke:none;display:inline"
-       d="m 1290,4.9999926 7.5,-2.5 0,5.0000001 z"
-       id="path3376-8-45-8"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1297.5,4.9999926 75,0"
-       id="path4500-6-5-7-6-2-0-9"
-       inkscape:connector-curvature="0" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1329.9999,94.999973 15.0001,0"
+       d="m 1329.9999,-192.50002 15.0001,0"
        id="path4534-6-3-9-0"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#f4d7ee;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1250,94.999973 40,-29.99998 40,29.99998 -40,29.999997 z"
+       d="m 1250,-192.50002 40,-29.99998 40,29.99998 -40,29.99999 z"
        id="path4528-6-6-3-0"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1290,124.99997 0,32.5"
+       d="m 1290,-162.50003 0,32.5"
        id="path4532-5-0-3-1"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1289.9584"
-       y="90.021957"
+       y="-197.47803"
        id="text4538-9-6-1-42"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4540-4-2-7-3"
          x="1289.9584"
-         y="90.021957">dtReq</tspan><tspan
+         y="-197.47803">dtReq</tspan><tspan
          sodipodi:role="line"
          x="1289.9584"
-         y="102.52196"
+         y="-184.97803"
          id="tspan3291-4">&gt;= dtMax</tspan><tspan
          sodipodi:role="line"
          x="1289.9584"
-         y="115.02196"
+         y="-172.47803"
          id="tspan3293-6">?</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1332.5022"
-       y="92.618607"
+       y="-194.88138"
        id="text4584-3-6-9-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4586-5-1-6-4"
          x="1332.5022"
-         y="92.618607">Y</tspan></text>
+         y="-194.88138">Y</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1292.4047"
-       y="135.01683"
+       y="-152.48315"
        id="text4588-5-8-3-6"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4590-2-7-4-1"
          x="1292.4047"
-         y="135.01683">N</tspan></text>
+         y="-152.48315">N</tspan></text>
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-0-4-2-4"
        width="80"
        height="39.999924"
        x="1345"
-       y="74.999977"
+       y="-212.50002"
        ry="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1384.7684"
-       y="86.025993"
+       y="-201.474"
        id="text4506-2-0-1-1-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1384.7684"
-         y="86.025993"
+         y="-201.474"
          id="tspan3337-4">Disable</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1424.9999,94.999963 10,0"
+       d="m 1424.9999,-192.50003 10,0"
        id="path4504-9-0-6-2-7"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1434.9999,94.999963 0,50.000007"
+       d="m 1434.9999,-192.50003 0,50"
        id="path4504-9-0-4-8-8"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#000000;stroke:none;display:inline"
-       d="m 1290,144.99997 7.5,-2.5 0,5 z"
+       d="m 1290,-142.50003 7.5,-2.5 0,5 z"
        id="path3376-8-43-7"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1297.5,144.99997 137.4999,0"
+       d="m 1297.5,-142.50003 137.4999,0"
        id="path4500-6-5-7-6-2-3-6"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1329.9999,187.49997 15.0001,0"
+       d="m 1329.9999,-100.00003 15.0001,0"
        id="path4534-6-3-9-9-9"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#f4d7ee;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1250,187.49997 40,-30 40,30 -40,30 z"
+       d="m 1250,-100.00003 40,-30 40,30 -40,30.000005 z"
        id="path4528-6-6-3-6-2"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1290,217.49997 0,32.5"
+       d="m 1290,-70.000025 0,32.5"
        id="path4532-5-0-3-4-5"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1289.9584"
-       y="182.52193"
+       y="-104.97807"
        id="text4538-9-6-1-4-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4540-4-2-7-6-7"
          x="1289.9584"
-         y="182.52193">dtReq</tspan><tspan
+         y="-104.97807">dtReq</tspan><tspan
          sodipodi:role="line"
          x="1289.9584"
-         y="195.02193"
+         y="-92.478065"
          id="tspan3291-1-7">&gt; dtMin</tspan><tspan
          sodipodi:role="line"
          x="1289.9584"
-         y="207.52193"
+         y="-79.978065"
          id="tspan3293-3-0">?</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1332.5022"
-       y="185.11859"
+       y="-102.3814"
        id="text4584-3-6-9-1-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4586-5-1-6-5-7"
          x="1332.5022"
-         y="185.11859">Y</tspan></text>
+         y="-102.3814">Y</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1292.4047"
-       y="227.51685"
+       y="-59.983154"
        id="text4588-5-8-3-0-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4590-2-7-4-8-4"
          x="1292.4047"
-         y="227.51685">N</tspan></text>
+         y="-59.983154">N</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1434.9999,187.49996 0,50.00001"
+       d="m 1434.9999,-100.00004 0,50.000015"
        id="path4504-9-0-4-8-0-7"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#000000;stroke:none;display:inline"
-       d="m 1290,237.49997 7.5,-2.5 0,5 z"
+       d="m 1290,-50.000025 7.5,-2.5 0,5 z"
        id="path3376-8-43-9-3"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1297.5,237.49997 137.4999,0"
+       d="m 1297.5,-50.000025 137.4999,0"
        id="path4500-6-5-7-6-2-3-9-8"
        inkscape:connector-curvature="0" />
     <rect
@@ -2382,36 +2042,36 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="39.999996"
        x="1345"
-       y="74.999977" />
+       y="-212.50002" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-3-7-6-4-6"
        width="10"
        height="39.999996"
        x="1415"
-       y="74.999977" />
+       y="-212.50002" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-9-0-4-2-8-4"
        width="80"
        height="39.999924"
        x="1345"
-       y="167.49994"
+       y="-120.00005"
        ry="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1384.6581"
-       y="179.7397"
+       y="-107.76029"
        id="text4506-2-0-1-1-5-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1384.6581"
-         y="179.7397"
+         y="-107.76029"
          id="tspan3337-2-4">Enable</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1425,187.49997 10,0"
+       d="m 1425,-100.00003 10,0"
        id="path4504-9-0-6-2-0-4"
        inkscape:connector-curvature="0" />
     <rect
@@ -2420,41 +2080,41 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="39.999996"
        x="1345"
-       y="167.49994" />
+       y="-120.00005" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-3-7-6-4-8-0"
        width="10"
        height="39.999996"
        x="1415"
-       y="167.49994" />
+       y="-120.00005" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4498-15-1-3-19"
        width="80"
        height="40.000004"
        x="1250"
-       y="250"
+       y="-37.499996"
        ry="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1289.9999,289.99999 0,10.00001"
+       d="m 1289.9999,2.499995 0,10.00001"
        id="path4504-7-2-6-41"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1290.1053"
-       y="267.47968"
+       y="-20.020319"
        id="text4506-0-7-7-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1290.1053"
-         y="267.47968"
+         y="-20.020319"
          id="tspan3597-9-0-1">Date to</tspan><tspan
          sodipodi:role="line"
          x="1290.1053"
-         y="279.97968"
+         y="-7.520319"
          id="tspan3526-79">yyyy-mm-dd</tspan></text>
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
@@ -2462,40 +2122,40 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="39.999996"
        x="1320"
-       y="250" />
+       y="-37.499996" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-3-5-9-8-6"
        width="10"
        height="39.999996"
        x="1250"
-       y="250" />
+       y="-37.499996" />
     <rect
        style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4510-7-9-1"
        width="80"
        height="60"
        x="1250"
-       y="300" />
+       y="12.500006" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1290,360.00002 0,10"
+       d="m 1290,72.500025 0,9.999996"
        id="path4518-5-8-1"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1289.927"
-       y="327.2908"
+       y="39.790802"
        id="text4520-7-3-6"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4522-5-3-7"
          x="1289.927"
-         y="327.2908">Write in Date</tspan><tspan
+         y="39.790802">Write in Date</tspan><tspan
          sodipodi:role="line"
          x="1289.927"
-         y="339.7908"
+         y="52.290802"
          id="tspan3190-8-0">Input Field</tspan></text>
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
@@ -2503,33 +2163,33 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="10"
        height="60"
        x="1250"
-       y="300" />
+       y="12.500006" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4594-1-2-8-1"
        width="10"
        height="60"
        x="1320"
-       y="300" />
+       y="12.500006" />
     <path
        style="fill:#f4e3d7;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1237.5,429.99997 27.5,-60 77.5,0 -27.5,60 z"
+       d="m 1237.5,142.49997 27.5,-59.999995 77.5,0 -27.5,59.999995 z"
        id="path4542-5-18-8"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1289.9856"
-       y="397.20529"
+       y="109.70529"
        id="text4548-3-6-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4550-5-2-1"
          x="1289.9856"
-         y="397.20529">Wait for</tspan><tspan
+         y="109.70529">Wait for</tspan><tspan
          sodipodi:role="line"
          x="1289.9856"
-         y="409.70529"
+         y="122.20529"
          id="tspan3326-5-1">Event</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
@@ -3112,80 +2772,80 @@ CCMS Radio Beacon Monitor Station</dc:description>
        width="20"
        height="12.500007"
        x="1145"
-       y="92.499977"
+       y="-195.00002"
        ry="2.5"
        rx="2.5" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1155.1431"
-       y="102.22563"
+       y="-185.27435"
        id="text4506-4-8-2-4-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4508-4-0-3-9-7"
          x="1155.1431"
-         y="102.22563">-1</tspan></text>
+         y="-185.27435">-1</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;display:inline"
        id="rect3230-6-76-0"
        width="20"
        height="12.500007"
        x="1375"
-       y="184.99998"
+       y="-102.50001"
        ry="2.5"
        rx="2.5" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1385.1431"
-       y="194.72563"
+       y="-92.774361"
        id="text4506-4-8-2-4-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4508-4-0-3-9-9"
          x="1385.1431"
-         y="194.72563">-1</tspan></text>
+         y="-92.774361">-1</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;display:inline"
        id="rect3230-2-5-9-4"
        width="20"
        height="12.500007"
        x="1375"
-       y="92.499977"
+       y="-195.00002"
        ry="2.5"
        rx="2.5" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1385.1431"
-       y="102.22563"
+       y="-185.27435"
        id="text4506-4-8-0-6-3-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4508-4-0-4-0-3-7"
          x="1385.1431"
-         y="102.22563">+1</tspan></text>
+         y="-185.27435">+1</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;display:inline"
        id="rect3230-2-5-9-5"
        width="20"
        height="12.500007"
        x="1145"
-       y="184.99998"
+       y="-102.50001"
        ry="2.5"
        rx="2.5" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
        x="1155.1431"
-       y="194.72563"
+       y="-92.774361"
        id="text4506-4-8-0-6-3-6"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4508-4-0-4-0-3-2"
          x="1155.1431"
-         y="194.72563">+1</tspan></text>
+         y="-92.774361">+1</tspan></text>
     <g
        id="g3908">
       <circle
@@ -3381,62 +3041,6 @@ CCMS Radio Beacon Monitor Station</dc:description>
            sodipodi:role="line">1</tspan></text>
     </g>
     <g
-       transform="translate(1075,-310)"
-       style="display:inline"
-       id="g3908-92">
-      <circle
-         r="8.6712599"
-         cy="59.999981"
-         cx="40"
-         id="path3876-2"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 48.67126,59.999981 c 0,4.789005 -3.882255,8.67126 -8.67126,8.67126 -4.789005,0 -8.67126,-3.882255 -8.67126,-8.67126 0,-4.789005 3.882255,-8.67126 8.67126,-8.67126 4.789005,0 8.67126,3.882255 8.67126,8.67126 z"
-         sodipodi:cx="40"
-         sodipodi:cy="59.999981"
-         sodipodi:rx="8.6712599"
-         sodipodi:ry="8.6712599" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3878-8"
-         y="63.602444"
-         x="39.998276"
-         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           style="font-size:10px"
-           y="63.602444"
-           x="39.998276"
-           id="tspan3880-97"
-           sodipodi:role="line">1</tspan></text>
-    </g>
-    <g
-       transform="translate(1305,-310)"
-       style="display:inline"
-       id="g3908-36">
-      <circle
-         r="8.6712599"
-         cy="59.999981"
-         cx="40"
-         id="path3876-12"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 48.67126,59.999981 c 0,4.789005 -3.882255,8.67126 -8.67126,8.67126 -4.789005,0 -8.67126,-3.882255 -8.67126,-8.67126 0,-4.789005 3.882255,-8.67126 8.67126,-8.67126 4.789005,0 8.67126,3.882255 8.67126,8.67126 z"
-         sodipodi:cx="40"
-         sodipodi:cy="59.999981"
-         sodipodi:rx="8.6712599"
-         sodipodi:ry="8.6712599" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3878-9"
-         y="63.602444"
-         x="39.998276"
-         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           style="font-size:10px"
-           y="63.602444"
-           x="39.998276"
-           id="tspan3880-3"
-           sodipodi:role="line">1</tspan></text>
-    </g>
-    <g
        transform="translate(505,174.99998)"
        style="display:inline"
        id="g3908-7-1">
@@ -3521,7 +3125,7 @@ CCMS Radio Beacon Monitor Station</dc:description>
            sodipodi:role="line">2</tspan></text>
     </g>
     <g
-       transform="translate(1075,270)"
+       transform="translate(1075,-17.499995)"
        style="display:inline"
        id="g3908-7-32">
       <circle
@@ -3549,7 +3153,7 @@ CCMS Radio Beacon Monitor Station</dc:description>
            sodipodi:role="line">2</tspan></text>
     </g>
     <g
-       transform="translate(1305,270)"
+       transform="translate(1305,-17.499995)"
        style="display:inline"
        id="g3908-7-5">
       <circle
@@ -3630,62 +3234,6 @@ CCMS Radio Beacon Monitor Station</dc:description>
            y="63.602444"
            x="39.998276"
            id="tspan3880-7-2"
-           sodipodi:role="line">4</tspan></text>
-    </g>
-    <g
-       transform="translate(1075,-260)"
-       style="display:inline"
-       id="g3908-9-54">
-      <circle
-         r="8.6712599"
-         cy="59.999981"
-         cx="40"
-         id="path3876-1-7"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 48.67126,59.999981 c 0,4.789005 -3.882255,8.67126 -8.67126,8.67126 -4.789005,0 -8.67126,-3.882255 -8.67126,-8.67126 0,-4.789005 3.882255,-8.67126 8.67126,-8.67126 4.789005,0 8.67126,3.882255 8.67126,8.67126 z"
-         sodipodi:cx="40"
-         sodipodi:cy="59.999981"
-         sodipodi:rx="8.6712599"
-         sodipodi:ry="8.6712599" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3878-2-4"
-         y="63.602444"
-         x="39.998276"
-         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           style="font-size:10px"
-           y="63.602444"
-           x="39.998276"
-           id="tspan3880-7-4"
-           sodipodi:role="line">4</tspan></text>
-    </g>
-    <g
-       transform="translate(1305,-260)"
-       style="display:inline"
-       id="g3908-9-3">
-      <circle
-         r="8.6712599"
-         cy="59.999981"
-         cx="40"
-         id="path3876-1-0"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 48.67126,59.999981 c 0,4.789005 -3.882255,8.67126 -8.67126,8.67126 -4.789005,0 -8.67126,-3.882255 -8.67126,-8.67126 0,-4.789005 3.882255,-8.67126 8.67126,-8.67126 4.789005,0 8.67126,3.882255 8.67126,8.67126 z"
-         sodipodi:cx="40"
-         sodipodi:cy="59.999981"
-         sodipodi:rx="8.6712599"
-         sodipodi:ry="8.6712599" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3878-2-7"
-         y="63.602444"
-         x="39.998276"
-         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           style="font-size:10px"
-           y="63.602444"
-           x="39.998276"
-           id="tspan3880-7-8"
            sodipodi:role="line">4</tspan></text>
     </g>
     <g
@@ -3773,7 +3321,7 @@ CCMS Radio Beacon Monitor Station</dc:description>
            sodipodi:role="line">3</tspan></text>
     </g>
     <g
-       transform="translate(1075,210)"
+       transform="translate(1075,-77.499995)"
        style="display:inline"
        id="g3908-3-5">
       <circle
@@ -3801,7 +3349,7 @@ CCMS Radio Beacon Monitor Station</dc:description>
            sodipodi:role="line">3</tspan></text>
     </g>
     <g
-       transform="translate(1305,210)"
+       transform="translate(1305,-77.499995)"
        style="display:inline"
        id="g3908-3-1">
       <circle
@@ -4248,145 +3796,16 @@ CCMS Radio Beacon Monitor Station</dc:description>
            id="tspan3880-6-4-4"
            sodipodi:role="line">6</tspan></text>
     </g>
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4498-15-1-3-1-1-1"
-       width="80"
-       height="40.000004"
-       x="1020"
-       y="-95.000015"
-       ry="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1060,-54.999931 0,10"
-       id="path4504-7-2-6-4-0-7"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1060.1053"
-       y="-77.52034"
-       id="text4506-0-7-7-8-5-5"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
+       x="20.02354"
+       y="-289.96591"
+       id="text4506-2-0-14-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="1060.1053"
-         y="-77.52034"
-         id="tspan3597-9-0-3-5-1">yyyy-mm-dd</tspan><tspan
-         sodipodi:role="line"
-         x="1060.1053"
-         y="-65.02034"
-         id="tspan3526-7-4-8">to Date</tspan></text>
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-7-8-2-3-1-4"
-       width="10"
-       height="39.999996"
-       x="1090"
-       y="-95.000015" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-5-9-8-5-08-9"
-       width="10"
-       height="39.999996"
-       x="1020"
-       y="-95.000015" />
-    <g
-       transform="translate(1075.0001,-132.49998)"
-       style="display:inline"
-       id="g3908-3-6-1-6">
-      <circle
-         r="8.6712599"
-         cy="59.999981"
-         cx="40"
-         id="path3876-6-8-5-8"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 48.67126,59.999981 c 0,4.789005 -3.882255,8.67126 -8.67126,8.67126 -4.789005,0 -8.67126,-3.882255 -8.67126,-8.67126 0,-4.789005 3.882255,-8.67126 8.67126,-8.67126 4.789005,0 8.67126,3.882255 8.67126,8.67126 z"
-         sodipodi:cx="40"
-         sodipodi:cy="59.999981"
-         sodipodi:rx="8.6712599"
-         sodipodi:ry="8.6712599" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3878-0-8-9-5"
-         y="63.602444"
-         x="39.998276"
-         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           style="font-size:10px"
-           y="63.602444"
-           x="39.998276"
-           id="tspan3880-6-4-4-9"
-           sodipodi:role="line">6</tspan></text>
-    </g>
-    <rect
-       style="fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4498-15-1-3-1-1-0"
-       width="80"
-       height="40.000004"
-       x="1250"
-       y="-95.000015"
-       ry="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
-       d="m 1289.9999,-54.999934 0,10"
-       id="path4504-7-2-6-4-0-8"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
-       x="1290.1053"
-       y="-77.52034"
-       id="text4506-0-7-7-8-5-9"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="1290.1053"
-         y="-77.52034"
-         id="tspan3597-9-0-3-5-3">yyyy-mm-dd</tspan><tspan
-         sodipodi:role="line"
-         x="1290.1053"
-         y="-65.02034"
-         id="tspan3526-7-4-2">to Date</tspan></text>
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-7-8-2-3-1-1"
-       width="10"
-       height="39.999996"
-       x="1320"
-       y="-95.000015" />
-    <rect
-       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="rect4594-1-2-3-5-9-8-5-08-2"
-       width="10"
-       height="39.999996"
-       x="1250"
-       y="-95.000015" />
-    <g
-       transform="translate(1305,-132.49998)"
-       style="display:inline"
-       id="g3908-3-6-1-8">
-      <circle
-         r="8.6712599"
-         cy="59.999981"
-         cx="40"
-         id="path3876-6-8-5-4"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 48.67126,59.999981 c 0,4.789005 -3.882255,8.67126 -8.67126,8.67126 -4.789005,0 -8.67126,-3.882255 -8.67126,-8.67126 0,-4.789005 3.882255,-8.67126 8.67126,-8.67126 4.789005,0 8.67126,3.882255 8.67126,8.67126 z"
-         sodipodi:cx="40"
-         sodipodi:cy="59.999981"
-         sodipodi:rx="8.6712599"
-         sodipodi:ry="8.6712599" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3878-0-8-9-53"
-         y="63.602444"
-         x="39.998276"
-         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           style="font-size:10px"
-           y="63.602444"
-           x="39.998276"
-           id="tspan3880-6-4-4-91"
-           sodipodi:role="line">6</tspan></text>
-    </g>
+         x="20.02354"
+         y="-289.96591"
+         id="tspan3134-5-9-9">Version: 2017-02-19</tspan></text>
   </g>
 </svg>
