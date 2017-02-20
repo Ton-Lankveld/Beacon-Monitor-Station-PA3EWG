@@ -75,7 +75,7 @@
           </cc:Agent>
         </dc:publisher>
         <dc:language>en-US</dc:language>
-        <dc:date>2017-02-19</dc:date>
+        <dc:date>2017-02-20</dc:date>
         <dc:creator>
           <cc:Agent>
             <dc:title>Ton van Lankveld</dc:title>
@@ -3806,6 +3806,30 @@ CCMS Radio Beacon Monitor Station</dc:description>
          sodipodi:role="line"
          x="20.02354"
          y="-289.96591"
-         id="tspan3134-5-9-9">Version: 2017-02-19</tspan></text>
+         id="tspan3134-5-9-9">Version: 2017-02-20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"
+       x="869.90979"
+       y="-239.9742"
+       id="text3384-2-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3386-87-2"
+         x="869.90979"
+         y="-239.9742"
+         style="font-size:10px;text-align:end;text-anchor:end">dtMax =</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"
+       x="872.65784"
+       y="-239.9124"
+       id="text3388-9-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3390-7-8"
+         x="872.65784"
+         y="-239.9124"
+         style="font-size:10px">Youngest allowed date</tspan></text>
   </g>
 </svg>
