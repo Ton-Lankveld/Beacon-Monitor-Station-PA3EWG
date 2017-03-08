@@ -76,7 +76,7 @@
       <div class="error">
         <p>To find and show the plots, JavaScript is required. Please enable JavaScript in your browser.</p>
       </div>
-      <form id="selectSNRmap" name="selectSNRmap">
+      <form id="selectSNRmap" name="selectSNRmap" action="">
         <fieldset>
           <legend>Select Date</legend>
           <!-- The 'input' tag has 2 attributes which are imporant for the JavaScript application. 'min' is the date of the oldest plot files. 'max' is the date of the youngest plot files, if max="" then this date is today -->
@@ -84,7 +84,7 @@
           <button id="datePrev" type="button">-1</button>
           <button id="dateNext" type="button">+1</button>
         </fieldset>
-        <input id="submitButton" type="submit" value="Get Plots">
+        <button id="subButton" type="button">Get Plots</button>
       </form>
       <table class="layout">
         <tr><td><img class="imageborder" src="graphics/legend_snr.gif" alt="Legend of SNR Plots" height="66" width="358"></td><td></td><td><img class="imageborder" src="graphics/legend_path.gif" alt="Legend of Path Plots" height="66" width="136"></td></tr>
