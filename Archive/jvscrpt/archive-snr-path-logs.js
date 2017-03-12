@@ -1,7 +1,7 @@
 // @name Archive SNR and Path Logs
 // @description Select and show the archived Signal Noise Ratio and Path logs
 // @author Ton van Lankveld (ton.van.lankveld@philips.com)
-// @version 0.0.1 (2017-03-08)
+// @version 0.0.1 (2017-03-12)
 // @license MIT, path: MIT-LICENSE.txt
 //
 // Used library: jQuery 3.1.x (http://jquery.com/)
@@ -216,14 +216,15 @@ function nextDayEvent() {
 function archiveSNRpathLogs() {
     var inpAttrStr = "";
     var dtMinStr = "";
-    var dtMinInt = 0;
+    var dtReqStr = "";
     var dtMaxStr = "";
-    var dtMaxInt = 0;
     var dtNowObj = new Date();
     var dtNowInt = dtNowObj.getTime();  // Unix time in milliseconds
     var dtNowStr = "";
-    var dtReqStr = "";
-    var dtReqInt = 0;
+    var dtObj = { dtMinInt: 0,
+                  dtReqInt: 0,
+                  dtMaxInt: 0
+                };
     var dateOffsetInt = 28*88640000; // Default days in the past. Days x milliseconds-in-a-day
 
     $("div.error").hide();  // Hide 'JavaScript is required' message (check for JavaScript and jQuery)
@@ -234,16 +235,18 @@ function archiveSNRpathLogs() {
     if (!dtMinStr) {
        dtMinStr = "1996-09-01";
     }
+    dtObj.dtMinInt = dateStrToUnixTime(dtMinStr);
     inpAttrStr = attrGet("datePlots", "max");
     dtMaxStr = validateIso8601Date(inpAttrStr);
     if (!dtMaxStr) {
         dtNowStr = unixTimeToDateStr(dtNowInt);
         attrSet("datePlots", "max", dtNowStr);  // Set value of 'max' attribute in 'input' tag
-        dtReqInt = dtNowInt - dateOffsetInt;
+        dtObj.dtReqInt = dtNowInt - dateOffsetInt;
     } else {
-        dtReqInt = dateStrToUnixTime(dtMaxStr);
+        dtObj.dtReqInt = dateStrToUnixTime(dtMaxStr);
     }
-    dtReqStr = unixTimeToDateStr(dtReqInt);
+    dtObj.dtMaxInt = dateStrToUnixTime(dtMaxStr);
+    dtReqStr = unixTimeToDateStr(dtObj.dtReqInt);
     attrSet("datePlots", "value", dtReqStr);  // Write requested date in 'input' tag
     namePlotFiles(dtReqStr);
 
