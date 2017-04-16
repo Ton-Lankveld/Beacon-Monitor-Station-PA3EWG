@@ -1,10 +1,10 @@
 // @name Archive SNR and Path Logs
-// @description Select and show the archived Signal Noise Ratio and Path logs
+// @description Select and show the archived Signal Noise Ratio and Path images
 // @author Ton van Lankveld (ton.van.lankveld@philips.com)
-// @version 0.0.1 (2017-03-12)
+// @version 0.0.2 (2017-04-16)
 // @license MIT, path: MIT-LICENSE.txt
 //
-// Used library: jQuery 3.1.x (http://jquery.com/)
+// Used library: jQuery 3.2.x (http://jquery.com/)
 //
 // Documentation: JsDoc 3 Toolkit (http://usejsdoc.org/)
 
@@ -189,43 +189,153 @@ function namePlotFiles(inputStr) {
 }
 
 // @function
+// @name checkPrevNextButtons
+// @description Check if the -1 or +1 buttons are correctly greyed out or not
+// @requires jQuery
+function checkPrevNextButtons() {
+    "use strict";
+    var dt = $("#selectSNRmap").data(); // Fetch dtObj from <form>
+    var greyedOutPrevButtonBool = $("#datePrev").hasClass("greyOut");
+    var greyedOutNextButtonBool = $("#dateNext").hasClass("greyOut");
+    
+    // Check -1 button
+    if (dt.dtReq <= dt.dtMin) {
+        if (greyedOutPrevButtonBool === false) {
+            $("#datePrev").addClass("greyOut");
+            $("#datePrev").off();
+        }
+    } else if (greyedOutPrevButtonBool === true) {
+        $("#datePrev").removeClass("greyOut");
+        $("#datePrev").on("click keypress", prevDayEvent );
+    }
+    // Check +1 button
+    if (dt.dtReq >= dt.dtMax) {
+        if (greyedOutNextButtonBool === false) {
+            $("#dateNext").addClass("greyOut");
+            $("#dateNext").off();
+        }
+    } else if (greyedOutNextButtonBool === true) {
+        $("#dateNext").removeClass("greyOut");
+        $("#dateNext").on("click keypress", nextDayEvent );
+    }
+    return;
+}
+
+// @function
+// @name changeRequestedDate
+// @description Add or subtract 1 day to/of the requested date and write it in <input>
+// @requires jQuery
+// @requires unixTimeToDateStr()
+// @requires attrSet()
+// @param {string} inputStr - "+" = +1 day, "-" = -1 day
+function changeRequestedDate(inputStr) {
+    "use strict";
+    var dtReqStr = "";
+    var dt = $("#selectSNRmap").data(); // Fetch dtObj from <form>
+
+    // Remember: Check if "Enter' or "Tab" key is pressed
+
+    if (inputStr === "+") {
+        dt.dtReqInt = dt.dtReqInt + 86400000; // Number is milliseconds in one day
+    } else if (inputStr === "-") {
+        dt.dtReqInt = dt.dtReqInt - 86400000; // Number is milliseconds in one day
+    } else {
+        return;
+    }
+    // Make sure dtMin <= dtReq <= dtMax
+    if (dt.dtReqInt < dt.dtMinInt) {
+        dt.dtReqInt = dt.dtMinInt;
+    }
+    if (dt.dtReqInt > dt.dtMaxInt) {
+        dt.dtReqInt = dt.dtMaxInt;
+    }
+    checkPrevNextButtons();
+    dtReqStr = unixTimeToDateStr(dt.dtReqInt);
+    attrSet("datePlots", "value", dtReqStr);  // Write new requested date in <input>
+    return;
+}
+
+// @function
 // @name getPlotsEvent
 // @description Handles the event after the 'Get Plots' button is pressed
+// @requires jQuery
+// @requires validateIso8601Date()
+// @requires dateStrToUnixTime()
+// @requires checkPrevNextButtons()
+// @requires unixTimeToDateStr()
+// @requires attrSet()
+// @requires namePlotFiles()
 function getPlotsEvent() {
-    alert("Get Plots button works");
+    "use strict";
+    var inputStr = "";
+    var dtReqStr = "";
+    var dt = $("#selectSNRmap").data(); // Fetch dtObj from <form>
+    
+    inputStr = document.getElementById("datePlots").value;
+    dtReqStr = validateIso8601Date(inputStr);
+    if (!dtReqStr) {
+       attrSet("datePlots", "value", "Correct format: yyyy-mm-dd");  // Write error message in <input>
+       return;
+    }
+    dt.dtReqInt = dateStrToUnixTime(dtReqStr)
+    // Make sure dtMin <= dtReq <= dtMax
+    if (dt.dtReqInt < dt.dtMinInt) {
+        dt.dtReqInt = dt.dtMinInt;
+    }
+    if (dt.dtReqInt > dt.dtMaxInt) {
+        dt.dtReqInt = dt.dtMaxInt;
+    }
+    checkPrevNextButtons();
+    dtReqStr = unixTimeToDateStr(dt.dtReqInt);
+    attrSet("datePlots", "value", dtReqStr);  // Write requested date in <input>
+    namePlotFiles(dtReqStr);
+    return;
 }
 
 // @function
 // @name prevDayEvent
 // @description Handles the event after the '-1' button is pressed
 function prevDayEvent() {
-    alert("-1 button works");
+    "use strict";
+    changeRequestedDate("-");
+    return;
 }
 
 // @function
 // @name nextDayEvent
 // @description Handles the event after the '+1' button is pressed
 function nextDayEvent() {
-    alert("+1 button works");
+    "use strict";
+    changeRequestedDate("+");
+    return;
 }
 
 // @function
 // @name archiveSNRpathLogs
 // @description Main loop
 // @requires jQuery
+// @requires attrGet()
+// @requires validateIso8601Date()
+// @requires dateStrToUnixTime()
+// @requires unixTimeToDateStr()
+// @requires attrSet()
+// @requires namePlotFiles()
+// @requires getPlotsEvent()
+// @requires prevDayEvent()
+// @requires nextDayEvent()
 function archiveSNRpathLogs() {
+    "use strict";
     var inpAttrStr = "";
     var dtMinStr = "";
     var dtReqStr = "";
     var dtMaxStr = "";
     var dtNowObj = new Date();
     var dtNowInt = dtNowObj.getTime();  // Unix time in milliseconds
-    var dtNowStr = "";
     var dtObj = { dtMinInt: 0,
                   dtReqInt: 0,
                   dtMaxInt: 0
                 };
-    var dateOffsetInt = 28*88640000; // Default days in the past. Days x milliseconds-in-a-day
+    var dateOffsetInt = 28*86400000; // Default days in the past. Days x milliseconds-in-a-day
 
     $("div.error").hide();  // Hide 'JavaScript is required' message (check for JavaScript and jQuery)
 
@@ -239,15 +349,18 @@ function archiveSNRpathLogs() {
     inpAttrStr = attrGet("datePlots", "max");
     dtMaxStr = validateIso8601Date(inpAttrStr);
     if (!dtMaxStr) {
-        dtNowStr = unixTimeToDateStr(dtNowInt);
-        attrSet("datePlots", "max", dtNowStr);  // Set value of 'max' attribute in 'input' tag
+        dtObj.dtMaxInt = dtNowInt;
+        dtMaxStr = unixTimeToDateStr(dtObj.dtMaxInt);
+        attrSet("datePlots", "max", dtMaxStr);  // Set value of 'max' attribute in <input>
         dtObj.dtReqInt = dtNowInt - dateOffsetInt;
     } else {
-        dtObj.dtReqInt = dateStrToUnixTime(dtMaxStr);
+        dtObj.dtMaxInt = dateStrToUnixTime(dtMaxStr);
+        dtObj.dtReqInt = dtObj.dtMaxInt;
     }
     dtObj.dtMaxInt = dateStrToUnixTime(dtMaxStr);
     dtReqStr = unixTimeToDateStr(dtObj.dtReqInt);
-    attrSet("datePlots", "value", dtReqStr);  // Write requested date in 'input' tag
+    $("#selectSNRmap").data(dtObj);  // Attach dtObj to <form>
+    attrSet("datePlots", "value", dtReqStr);  // Write requested date in <input>
     namePlotFiles(dtReqStr);
 
     // Activate buttons
