@@ -5,19 +5,21 @@
   <title>Beacon Monitor Station PA3EWG - Archive</title>
   <meta name="creator" content="Ton v. Lankveld">
   <meta name="description" content="Radio Beacon Monitor Station PA3EWG in the Netherlands. Archive of the measurements of this station.">
-  <link rel="stylesheet" href="stijl/screen_html5.css" media="screen">
-  <link rel="stylesheet" href="stijl/print_html5.css" media="print">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stijl/algemeen_screen.css" media="screen">
+  <link rel="stylesheet" href="stijl/algemeen_print.css" media="print">
 </head>
 <body>
   <header>
     <h1>Computer Club Medical Systems</h1>
-	<h2>Beacon Monitor Station PA3EWG</h2>
+	<h2>Beacon Monitor Station <abbr>PA3EWG</abbr></h2>
   </header>
   <nav>
     <ul>
 	  <li><a href="index.html">Data</a></li>
       <li id="activePage">Archive</li>
       <li><a href="maps.html">Maps</a></li>
+      <li><a href="maintenancelog.html">Maintenance Log</a></li>
 	  <li><a href="about-us.html">About us</a></li>
 	  <li><a href="contact.html">Contact</a></li>
       <li id="ccmsButton"><a href="http://www.ccms-best.nl/index_en.html" title="Computer Club Medical Systems">CCMS</a></li>
@@ -80,14 +82,14 @@
         <fieldset>
           <legend>Select Date</legend>
           <!-- The 'input' tag has 2 attributes which are imporant for the JavaScript application. 'min' is the date of the oldest plot files. 'max' is the date of the youngest plot files, if max="" then this date is today -->
-          <p><label for "datePlots">Date (yyyy-mm-dd)<input id="datePlots" type="date" min="2013-05-30"></label></p>
+          <p><label for "datePlots">Date (yyyy-mm-dd)<input id="datePlots" type="text" min="2013-05-30" aria-live="assertive"></label></p>
           <button id="datePrev" type="button">-1</button>
           <button id="dateNext" type="button">+1</button>
         </fieldset>
         <button id="subButton" type="button">Get Plots</button>
       </form>
       <table class="layout">
-        <tr><td><img class="imageborder" src="graphics/legend_snr.gif" alt="Legend of SNR Plots" height="66" width="358"></td><td></td><td><img class="imageborder" src="graphics/legend_path.gif" alt="Legend of Path Plots" height="66" width="136"></td></tr>
+        <tr><td><img class="imageborder" src="graphics/legend_snr.gif" alt="Legend of SNR Plots" height="66" width="358"></td><td></td><td><img class="imageborder" src="graphics/legend_path.gif" alt="Legend of Path Plots: Light blue = short, yellow = long, white = unknown" height="66" width="136"></td></tr>
         <tr><td class="map" width="525" height="1052"><p align="center">Signal Noise Ratio plot<br><img src="graphics/scale.gif" width="519" height="14" alt="Scale"><br><img id="snrPlot" width="519" height="1038"></td><td></td><td class="map" width="525" height="1052"><p align="center">Path Plot<br><img src="graphics/scale.gif" width="519" height="14" alt="Scale"><br><img id="pathPlot" width="519" height="1038"></td></tr>
       </table>
       <div id="plots"></div>
@@ -107,7 +109,7 @@
   <footer>
     <p>Content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons License</a><span class="url"> (http://creativecommons.org/licenses/by-nc/3.0/deed.en_US)</span>.</p>
   </footer>
-  <script type="application/javascript" src="jvscrpt/jquery-3.2.0.min.js"></script>
+  <script type="application/javascript" src="jvscrpt/jquery-3.2.1.min.js"></script>
   <script type="application/javascript" src="jvscrpt/archive-snr-path-logs.js"></script>
 </body>
 </html>
