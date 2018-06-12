@@ -1,7 +1,7 @@
 // @name Archive SNR and Path Logs
 // @description Select and show the archived Signal Noise Ratio and Path images
 // @author Ton van Lankveld (ton.van.lankveld@philips.com)
-// @version 0.0.2 (2017-04-16)
+// @version 0.0.3 (2018-06-11)
 // @license MIT, path: MIT-LICENSE.txt
 //
 // Used library: jQuery 3.2.x (http://jquery.com/)
@@ -72,7 +72,7 @@ function dateStrToUnixTime(dateStr) {
     }
     var month_ns = parseInt(dateArr[1]); // *_ns = not save
     if (Number.isInteger(month_ns)) {
-        monthInt = month_ns;
+        monthInt = month_ns - 1;  // January = 0, December = 11
     }
     var day_ns = parseInt(dateArr[2]); // *_ns = not save
     if (Number.isInteger(day_ns)) {
@@ -124,9 +124,9 @@ function unixTimeToDateStr(dateInt) {
 // @function
 // @name whiteFilterStr
 // @description Filter a string and allow only characters in the white list string
-// @param {string} inputStr - String to be sanatized
+// @param {string} inputStr - String to be sanitized
 // @param {string} whiteListStr - Allowed characters
-// @return {string} cleanStr - Sanatized string. If fault then empty
+// @return {string} cleanStr - Sanitized string. If fault then empty
 function whiteFilterStr(inputStr, whiteListStr) {
     "use strict";
     var cleanStr = "";
@@ -183,9 +183,13 @@ function namePlotFiles(inputStr) {
 
     var snrFilePath = FPATH + "S-" + inputStr + ".gif";
     var pathFilePath = FPATH + "P-" + inputStr + ".gif";
-    attrSet("snrPlot", "scr", snrFilePath);
-    attrSet("pathPlot", "scr", pathFilePath);
-    return true;
+    var e1 = attrSet("snrPlot", "scr", snrFilePath);
+    var e2 = attrSet("pathPlot", "scr", pathFilePath);
+    if ((e1 === false) || (e2 === false)) {
+        return false;
+    } else {
+        return true;
+    }
 }
 
 // @function
@@ -277,7 +281,7 @@ function getPlotsEvent() {
        attrSet("datePlots", "value", "Correct format: yyyy-mm-dd");  // Write error message in <input>
        return;
     }
-    dt.dtReqInt = dateStrToUnixTime(dtReqStr)
+    dt.dtReqInt = dateStrToUnixTime(dtReqStr);
     // Make sure dtMin <= dtReq <= dtMax
     if (dt.dtReqInt < dt.dtMinInt) {
         dt.dtReqInt = dt.dtMinInt;
@@ -285,7 +289,7 @@ function getPlotsEvent() {
     if (dt.dtReqInt > dt.dtMaxInt) {
         dt.dtReqInt = dt.dtMaxInt;
     }
-    checkPrevNextButtons();
+    // checkPrevNextButtons();
     dtReqStr = unixTimeToDateStr(dt.dtReqInt);
     attrSet("datePlots", "value", dtReqStr);  // Write requested date in <input>
     namePlotFiles(dtReqStr);
@@ -335,11 +339,11 @@ function archiveSNRpathLogs() {
                   dtReqInt: 0,
                   dtMaxInt: 0
                 };
-    var dateOffsetInt = 28*86400000; // Default days in the past. Days x milliseconds-in-a-day
+    var DATEOFFSETINT = 28*86400000; // Default days in the past. Days x milliseconds-in-a-day
 
     $("div.error").hide();  // Hide 'JavaScript is required' message (check for JavaScript and jQuery)
 
-    // Initalisation and show default plots
+    // Initialization and show default plots
     inpAttrStr = attrGet("datePlots", "min");
     dtMinStr = validateIso8601Date(inpAttrStr);
     if (!dtMinStr) {
@@ -352,7 +356,7 @@ function archiveSNRpathLogs() {
         dtObj.dtMaxInt = dtNowInt;
         dtMaxStr = unixTimeToDateStr(dtObj.dtMaxInt);
         attrSet("datePlots", "max", dtMaxStr);  // Set value of 'max' attribute in <input>
-        dtObj.dtReqInt = dtNowInt - dateOffsetInt;
+        dtObj.dtReqInt = dtNowInt - DATEOFFSETINT;
     } else {
         dtObj.dtMaxInt = dateStrToUnixTime(dtMaxStr);
         dtObj.dtReqInt = dtObj.dtMaxInt;
@@ -367,6 +371,7 @@ function archiveSNRpathLogs() {
     $("#subButton").on("click keypress", getPlotsEvent );
     $("#datePrev").on("click keypress", prevDayEvent );
     $("#dateNext").on("click keypress", nextDayEvent );
+    return;
 }
 
 archiveSNRpathLogs();
