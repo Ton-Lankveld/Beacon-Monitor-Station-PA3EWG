@@ -183,8 +183,8 @@ function namePlotFiles(inputStr) {
 
     var snrFilePath = FPATH + "S-" + inputStr + ".gif";
     var pathFilePath = FPATH + "P-" + inputStr + ".gif";
-    var e1 = attrSet("snrPlot", "scr", snrFilePath);
-    var e2 = attrSet("pathPlot", "scr", pathFilePath);
+    var e1 = attrSet("snrPlot", "src", snrFilePath);
+    var e2 = attrSet("pathPlot", "src", pathFilePath);
     if ((e1 === false) || (e2 === false)) {
         return false;
     } else {
