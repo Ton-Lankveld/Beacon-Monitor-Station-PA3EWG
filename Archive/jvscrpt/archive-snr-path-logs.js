@@ -1,7 +1,7 @@
 // @name Archive SNR and Path Logs
 // @description Select and show the archived Signal Noise Ratio and Path images
 // @author Ton van Lankveld (ton.van.lankveld@philips.com)
-// @version 0.0.3 (2018-06-11)
+// @version 0.1.0
 // @license MIT, path: MIT-LICENSE.txt
 //
 // Used library: jQuery 3.2.x (http://jquery.com/)
@@ -183,8 +183,8 @@ function namePlotFiles(inputStr) {
 
     var snrFilePath = FPATH + "S-" + inputStr + ".gif";
     var pathFilePath = FPATH + "P-" + inputStr + ".gif";
-    var e1 = attrSet("snrPlot", "scr", snrFilePath);
-    var e2 = attrSet("pathPlot", "scr", pathFilePath);
+    var e1 = attrSet("snrPlot", "src", snrFilePath);
+    var e2 = attrSet("pathPlot", "src", pathFilePath);
     if ((e1 === false) || (e2 === false)) {
         return false;
     } else {
