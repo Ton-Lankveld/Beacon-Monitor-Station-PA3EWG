@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="900"> <!-- Refresh page every 15 minutes -->
+  <title>Beacon Monitor Station PA3EWG</title>
+  <meta name="creator" content="Ton v. Lankveld">
+  <meta name="description" content="Radio Beacon Monitor Station PA3EWG in the Netherlands. Graphical representation of the Signal to Noise Ration and Path measurements of this station.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stijl/algemeen_screen.css" media="screen">
+  <link rel="stylesheet" href="stijl/algemeen_print.css" media="print">
+  <link rel="icon" href="stijl/favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <h1>Computer Club Medical Systems</h1>
+	<h2>Beacon Monitor Station <abbr>PA3EWG</abbr></h2>
+  </header>
+  <nav>
+    <ul>
+	  <li id="activePage">Data</li>
+      <li><a href="beaconlogs.html">Archive</a></li>
+      <li><a href="maps.html">Maps</a></li>
+      <li><a href="maintenancelog.html">Maintenance Log</a></li>
+	  <li><a href="about-us.html">About us</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+      <li id="ccmsButton"><a href="http://www.ccms-best.nl/index_en.html" title="Computer Club Medical Systems">CCMS</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h3>Data</h3>
+      <p>Reception of the <a target="_blank" href="http://www.ncdxf.org/beacon/index.html">IARU/NCDXF International Beacon Project</a><span class="url"> (http://www.ncdxf.org/beacon/index.html)</span> beacons.</p>
+      <p>Location: Best, North Brabant, Netherlands.</p>
+      <p><abbr>QRA</abbr> Locator: <abbr>JO21PO</abbr>.</p>
+      <div class="geo">
+        <p><span class="latitude" title="51.61">Latitude: 51° 36' 36" N</span>, <span class="longitude" title="5.288333">Longitude: 5° 17' 18" E</span></p>
+      </div>
+      <div class="note">
+        <p>Due to relocation of the <abbr>NCDXF</abbr> monitoring station <abbr>PA3EWG</abbr>, activities can be interrupted in the coming months.</p>
+        <p>For more information, see the <a href="maintenancelog.html">Maintenance Log</a>.</p>
+      </div>
+      <p>Other Beacon Monitoring web pages are linked from the <a target="_blank" href="http://www.ncdxf.org/beacon/monitors.html">International Beacon Project Monitors</a><span class="url"> (http://www.ncdxf.org/beacon/monitors.html)</span> site.</p>
+      <h4 class="newpage">Signal to Noise Ratio Plots</h4>
+        <p><img class="imageborder" src="graphics/legend_snr.gif" alt="Legend of SNR Plots" height="66" width="358"></p>
+        <p align="center">Updated: <span id="snrCurrentDate"></span> (<a href="http://en.wikipedia.org/wiki/Coordinated_Universal_Time"><abbr>UTC</abbr></a> time)</p>
+        <table class="bms">
+          <tr>
+            <td class="map" width="525">
+              <p align="center">SNR Yesterday<br><img src="graphics/scale.gif" width="519" height="14" alt="Scale"><br><a id="snrYesterday" href=""><img src="" width="519" height="1038" title="Signal Noise Ratio Yesterday"></a>
+            </td>
+            <td width="52">
+              <p align="center">Beacon<br>Status<br><img src="graphics/beacon_status.png" width="52" height="1038">
+            </td>
+            <td class="map" width="525">
+              <p align="center">SNR Today<br><img src="graphics/scale.gif" width="519" height="14" alt="Scale"><br><a id="snrToday" href=""><img src="" width="519" height="1038" title="Signal Noise Ratio Today"></a>
+            </td>
+          </tr>
+        </table>
+      <h4 class="newpage">Path Plots</h4>
+        <p><img class="imageborder" src="graphics/legend_path.gif" alt="Legend of Path Plots" height="66" width="136"></p>
+        <p align="center">Updated: <span id="pathCurrentDate"></span> (<a href="http://en.wikipedia.org/wiki/Coordinated_Universal_Time"><abbr>UTC</abbr></a> time)</p>
+        <table class="bms">
+          <tr>
+            <td class="map" width="525">
+              <p align="center">Path Yesterday<br><img src="graphics/scale.gif" width="519" height="14" alt="Scale"><br><a id="pathYesterday" href=""><img src="" width="519" height="1038" title="Path Yesterday"></a>
+            </td>
+            <td width="52">
+              <p align="center">Beacon<br>Status<br><img src="graphics/beacon_status.png" width="52" height="1038">
+            </td>
+            <td class="map" width="525">
+              <p align="center">Path Today<br><img src="graphics/scale.gif" width="519" height="14" alt="Scale"><br><a id="pathToday" href=""><img src="" width="519" height="1038" title="Path Today"></a>
+            </td>
+          </tr>
+        </table>
+  </article>
+  <footer>
+    <p>Content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons License</a><span class="url"> (http://creativecommons.org/licenses/by-nc/3.0/deed.en_US)</span>.</p>
+  </footer>
+  <script type="text/JavaScript">
+    function insertSnrAndPathGraphics () {
+      // Get date of today
+      var d = new Date();
+      var m = d.getUTCMonth()+1;
+      var day = d.getUTCDate();
+      var yr = d.getUTCFullYear();
+      // Get date of yesterday
+      var y = new Date();
+      y.setDate(y.getDate()-1);
+      var my = y.getUTCMonth()+1;
+      var dy = y.getUTCDate();
+      var yy = y.getUTCFullYear();
+      // Construct string for today's UTC date
+      var updatetext = yr+"-"+(m < 10 ? "0"+m : m)+"-"+(day<10 ? "0"+day : day);
+      // Construct strings for SNR and Path graphics
+      var snamet = "farosmaps/S-"+yr+"-"+(m < 10 ? "0" + m : m)+"-"+(day < 10 ? "0" + day : day)+".gif";
+      var pnamet = "farosmaps/P-"+yr+"-"+(m < 10 ? "0" + m : m)+"-"+(day < 10 ? "0" + day : day)+".gif";
+      var snamey = "farosmaps/S-"+yy+"-"+(my < 10 ? "0" + my : my)+"-"+(dy < 10 ? "0" + dy : dy)+".gif";
+      var pnamey = "farosmaps/P-"+yy+"-"+(my < 10 ? "0" + my : my)+"-"+(dy < 10 ? "0" + dy : dy)+".gif";
+      // Insert data in SNR table
+      document.getElementById('snrCurrentDate').textContent = updatetext;
+      document.getElementById('snrYesterday').setAttribute("href", snamey);
+      document.getElementById('snrYesterday').firstChild.setAttribute("src", snamey);
+      document.getElementById('snrToday').setAttribute("href", snamet);
+      document.getElementById('snrToday').firstChild.setAttribute("src", snamet);
+      // Insert data in Path table
+      document.getElementById('pathCurrentDate').textContent = updatetext;
+      document.getElementById('pathYesterday').setAttribute("href", pnamey);
+      document.getElementById('pathYesterday').firstChild.setAttribute("src", pnamey);
+      document.getElementById('pathToday').setAttribute("href", pnamet);
+      document.getElementById('pathToday').firstChild.setAttribute("src", pnamet);
+    }
+    
+    insertSnrAndPathGraphics();
+  </script>
+</body>
+</html>
