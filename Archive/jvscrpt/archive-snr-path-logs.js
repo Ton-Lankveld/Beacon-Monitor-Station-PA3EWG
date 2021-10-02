@@ -1,10 +1,10 @@
 // @name Archive SNR and Path Logs
 // @description Select and show the archived Signal Noise Ratio and Path images
-// @author Ton van Lankveld (ton.van.lankveld@philips.com)
+// @author Ton van Lankveld (lankveal@xs4all.nl)
 // @version 0.1.0
 // @license MIT, path: MIT-LICENSE.txt
 //
-// Used library: jQuery 3.2.x (http://jquery.com/)
+// Used library: jQuery 3.6.x (http://jquery.com/)
 //
 // Documentation: JsDoc 3 Toolkit (http://usejsdoc.org/)
 
