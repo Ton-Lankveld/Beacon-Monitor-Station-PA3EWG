@@ -1,12 +1,12 @@
 // @name Archive SNR and Path Logs
 // @description Select and show the archived Signal Noise Ratio and Path images
 // @author Ton van Lankveld (lankveal@xs4all.nl)
-// @version 0.1.0
+// @version 0.1.1
 // @license MIT, path: MIT-LICENSE.txt
 //
 // Used library: jQuery 3.6.x (http://jquery.com/)
 //
-// Documentation: JsDoc 3 Toolkit (http://usejsdoc.org/)
+// Documentation: JsDoc 3 Toolkit (https://jsdoc.app/)
 
 
 // @function
@@ -201,7 +201,7 @@ function checkPrevNextButtons() {
     var dt = $("#selectSNRmap").data(); // Fetch dtObj from <form>
     var greyedOutPrevButtonBool = $("#datePrev").hasClass("greyOut");
     var greyedOutNextButtonBool = $("#dateNext").hasClass("greyOut");
-    
+
     // Check -1 button
     if (dt.dtReq <= dt.dtMin) {
         if (greyedOutPrevButtonBool === false) {
@@ -274,7 +274,7 @@ function getPlotsEvent() {
     var inputStr = "";
     var dtReqStr = "";
     var dt = $("#selectSNRmap").data(); // Fetch dtObj from <form>
-    
+
     inputStr = document.getElementById("datePlots").value;
     dtReqStr = validateIso8601Date(inputStr);
     if (!dtReqStr) {
